@@ -16,5 +16,6 @@ pub fn main() !void {
             // Small delay to prevent spamming the output (optional)
             std.time.sleep(100 * std.time.ns_per_ms); // 100ms delay
         }
+        std.time.sleep(100 * std.time.ns_per_ms); // 100ms delay
     }
 }
